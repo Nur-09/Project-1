@@ -21,7 +21,7 @@ modal.onclick = (event) => {
     }
 };
 
-setTimeout(openModal, 1000);
+setTimeout(openModal, 10000);
 
 window.addEventListener("scroll", () => {
     if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight) {
